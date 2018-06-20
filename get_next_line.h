@@ -6,7 +6,7 @@
 /*   By: avan-ni <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/06/05 16:04:04 by avan-ni           #+#    #+#             */
-/*   Updated: 2018/06/19 17:36:23 by avan-ni          ###   ########.fr       */
+/*   Updated: 2018/06/20 13:59:54 by avan-ni          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 # include <unistd.h>
 # include "libft.h"
 
-# define BUFF_SIZE 32
+# define BUFF_SIZE 10
 
 int				get_next_line(const int fd, char **line);
 
